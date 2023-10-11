@@ -5,7 +5,7 @@ An all-in-one YouTube Scraper and Sentiment Analysis tool, extracting channel, v
 
 This project is designed for scraping YouTube data and performing sentiment analysis on comments. It utilizes various libraries, including NLTK, VADER, and Hugging Face Transformers, to provide a comprehensive analysis of YouTube channels, videos, and comments.
 
-# Getting API KEY
+## Getting API KEY
 
 To use this project, you need a YouTube API Key (YouTube Data API v3) to access YouTube's data. Follow these steps to obtain the API Key:
 
