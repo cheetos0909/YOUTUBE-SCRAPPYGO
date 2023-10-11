@@ -5,6 +5,54 @@ An all-in-one YouTube Scraper and Sentiment Analysis tool, extracting channel, v
 
 This project is designed for scraping YouTube data and performing sentiment analysis on comments. It utilizes various libraries, including NLTK, VADER, and Hugging Face Transformers, to provide a comprehensive analysis of YouTube channels, videos, and comments.
 
+# Getting API KEY
+
+To use this project, you need a YouTube API Key (YouTube Data API v3) to access YouTube's data. Follow these steps to obtain the API Key:
+
+1. **Go to the Google Cloud Console:**
+
+   - Visit [Google Cloud Console](https://console.cloud.google.com/).
+   - Sign in with your Google Account or create one if you don't have an account.
+
+2. **Create a New Project:**
+
+   - Click on the project dropdown and select "New Project."
+   - Give your project a name and click "Create."
+
+3. **Enable the YouTube Data API v3:**
+
+   - In the Google Cloud Console, go to the "APIs & Services" > "Library" page.
+   - Search for "YouTube Data API v3" and click on it.
+   - Click the "Enable" button to enable the API for your project.
+
+4. **Create API Key:**
+
+   - In the Google Cloud Console, go to the "APIs & Services" > "Credentials" page.
+   - Click the "Create credentials" dropdown and select "API Key."
+   - A new API Key will be generated for your project.
+
+5. **Restrict API Key (Recommended):**
+
+   - To enhance security, restrict your API Key by setting application restrictions and API restrictions. This step is optional but recommended.
+   - Under "Key restrictions," you can set the restrictions as needed, e.g., by specifying the IP addresses or HTTP referrers allowed to use the API Key.
+   - Under "API restrictions," select "Restrict key" and choose "YouTube Data API v3."
+
+6. **Protect Your API Key:**
+
+   - Keep your API Key secure. Do not share it publicly or commit it to version control.
+   - Use environment variables or configuration files to store your API Key securely.
+
+7. **Usage:**
+
+   - Now that you have your API Key, you can use it in your project to make requests to the YouTube Data API v3.
+
+Always ensure you follow Google's [Terms of Service](https://developers.google.com/terms) while using the YouTube Data API v3.
+
+For more details and up-to-date information on creating and managing API keys, you can refer to the [Google Cloud documentation](https://cloud.google.com/docs/authentication/getting-started).
+
+Please note that Google's services and policies may change over time, so it's essential to check the official documentation for any updates.
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
